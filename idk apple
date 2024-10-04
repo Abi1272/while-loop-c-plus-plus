@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main() {
+	string choice = "apple";
+	while (choice != "banana") {
+		cout << "apple" << endl;
+		cout << "type banana to quit";
+		cin >> choice;
+		cout << "you typed, " << choice << endl;
+	}
+}
