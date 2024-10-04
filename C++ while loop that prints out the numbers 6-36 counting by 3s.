@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int num = 3;
+	while (num < 37) {
+		cout << num << " ";
+		num += 3;
+	}
+}
